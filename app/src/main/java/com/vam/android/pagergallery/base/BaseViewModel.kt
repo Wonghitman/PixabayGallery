@@ -9,7 +9,7 @@ import kotlinx.coroutines.flow.onStart
 import kotlinx.coroutines.launch
 
 abstract class BaseViewModel() : ViewModel() {
-
+//Viewmodel调用Retrofit的封装，本项目没有用上
     protected fun <T> CoroutineScope.netLaunch(
         before: () -> Unit = {},
         async: suspend () -> Flow<RequestBuilder.APIResponse<T>>,

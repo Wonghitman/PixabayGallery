@@ -1,14 +1,11 @@
 
-ˆkotlin:S1172Y">Use "_" instead of this unused lambda parameter "grantedList".(«æòûÿÿÿÿ8‰àªçë1J$e71c75c8-3c80-4ced-8b48-aa70e5466637
-akotlin:S6310{"Avoid hardcoded dispatchers.(Ô¥‚ü8àªçë1J$90274301-0b4e-49fb-b8e4-fc77061840b8
-bkotlin:S6310–"Avoid hardcoded dispatchers.(Ô¥‚ü8àªçë1J$f7afba86-bf07-4aff-ab51-4768e2e88d75
-bkotlin:S6310³"Avoid hardcoded dispatchers.(Ô¥‚ü8’àªçë1J$3dea3a58-0a46-49a3-a4aa-df36451d55f4
-bkotlin:S6310¨"Avoid hardcoded dispatchers.(ÏÃâ8’àªçë1J$d3fdd076-f8e7-4175-a197-cd574addca94
-bkotlin:S6310ß"Avoid hardcoded dispatchers.(Í¡·Ş8’àªçë1J$490710d8-2b82-475f-b37b-ba095b1d8296
-bkotlin:S6310‚"Avoid hardcoded dispatchers.(Í¡·Ş8“àªçë1J$3fa9c31c-de05-4619-8baf-90939f0f02e7
-akotlin:S6310\"Avoid hardcoded dispatchers.(Ô¥‚ü8“àªçë1J$bc7405f9-25ba-42c2-982b-91a4e8c42433
-–kotlin:S6311\"QRemove this dispatcher. It is pointless when used with only suspending functions.(Ô¥‚ü8“àªçë1J$876deb20-e53c-4995-b0d6-bc23437d28b1
-_kotlin:S1128"Remove this unused import.(¾ÙŠä8ç×¨çë1J$2aae33c2-b9af-4707-8854-1bc61005abb3
-dkotlin:S1128 "Remove this unused import.(…ÿ±±ÿÿÿÿÿ8ç×¨çë1J$9a00d849-becb-425b-8b05-3450484dd0f7
-œkotlin:S1192‚"QDefine a constant instead of duplicating this literal "shared_image.jpg" 3 times.(œ€ÈĞıÿÿÿÿ8ıó¨çë1J$4baaae69-55dc-4f2f-be77-998883f96c8d
-–kotlin:S1192ª"KDefine a constant instead of duplicating this literal "image/jpeg" 3 times.(ñš†Üıÿÿÿÿ8È¢©çë1J$7ceba05f-1db6-4b98-8080-865ee8cb076d
+akotlin:S6310y"Avoid hardcoded dispatchers.(Ô¥‚ü8àªçë1J$e6a33a81-97cd-4701-9fb0-6b50a0c2a058
+bkotlin:S6310”"Avoid hardcoded dispatchers.(Ô¥‚ü8àªçë1J$faf0a5d2-85ce-42b3-ad9f-1ff28d723ffa
+bkotlin:S6310±"Avoid hardcoded dispatchers.(Ô¥‚ü8’àªçë1J$24fb6dec-626a-4022-acc1-598a950bba2c
+bkotlin:S6310§"Avoid hardcoded dispatchers.(ÏÃâ8’àªçë1J$70e1a375-8c6b-41bf-a671-fb1049eda65b
+bkotlin:S6310İ"Avoid hardcoded dispatchers.(Í¡·Ş8’àªçë1J$a9d7f19a-7d0e-41a8-b4a0-46753f013025
+bkotlin:S6310€"Avoid hardcoded dispatchers.(Í¡·Ş8“àªçë1J$bc7b1674-ad8e-47f3-a990-4fa8f5a2524a
+akotlin:S6310Z"Avoid hardcoded dispatchers.(Ô¥‚ü8“àªçë1J$012009d6-704e-45ef-b3c7-067edfa1a740
+–kotlin:S6311Z"QRemove this dispatcher. It is pointless when used with only suspending functions.(Ô¥‚ü8“àªçë1J$24c85df0-9dda-4c38-9951-59c018e02c68
+œkotlin:S1192€"QDefine a constant instead of duplicating this literal "shared_image.jpg" 3 times.(œ€ÈĞıÿÿÿÿ8ıó¨çë1J$5a57ade6-95b8-4a42-8353-fb017a5aa135
+–kotlin:S1192¨"KDefine a constant instead of duplicating this literal "image/jpeg" 3 times.(ñš†Üıÿÿÿÿ8È¢©çë1J$da92ffb1-3a8e-47b7-bc74-c3d33c679dfd

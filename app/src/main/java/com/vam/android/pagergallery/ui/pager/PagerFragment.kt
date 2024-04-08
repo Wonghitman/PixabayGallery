@@ -15,7 +15,6 @@ import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.content.ContextCompat
 import androidx.core.content.FileProvider
-import androidx.core.graphics.drawable.toBitmap
 import androidx.core.view.get
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.RecyclerView
@@ -29,7 +28,6 @@ import com.yalantis.ucrop.UCrop
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import uk.co.senab.photoview.PhotoView
 import java.io.File
 import java.io.FileOutputStream
 import java.io.IOException
@@ -86,7 +84,7 @@ class PagerFragment : BaseFragment<FragmentPagerBinding, GalleryViewModel>(
         binding.saveButton.setOnClickListener {
             PermissionX.init(this)
                 .permissions(Manifest.permission.WRITE_EXTERNAL_STORAGE)
-                .request { allGranted, grantedList, deniedList ->
+                .request { allGranted, _, deniedList ->
                     if (allGranted) {
                         viewLifecycleOwner.lifecycleScope.launch {
                             withContext(Dispatchers.IO) {
@@ -140,7 +138,7 @@ class PagerFragment : BaseFragment<FragmentPagerBinding, GalleryViewModel>(
                 file
             )
 
-            // Call uCrop with the Uri of the saved bitmap
+            // 调用UCrop库进行裁剪
             cutImageByuCrop(uri)
         }
 
@@ -292,6 +290,7 @@ class PagerFragment : BaseFragment<FragmentPagerBinding, GalleryViewModel>(
         return options
     }
 
+    // 从URL获取Bitmap，url转Bitmap
     suspend fun getBitmapFromURL(src: String): Bitmap? {
         return withContext(Dispatchers.IO) {
             try {

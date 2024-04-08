@@ -2,11 +2,7 @@ package com.vam.android.pagergallery.ui.pager
 
 import android.util.Log
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
-import android.widget.Toast
-import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
@@ -15,6 +11,7 @@ import com.vam.android.pagergallery.R
 import com.vam.android.pagergallery.databinding.PagerPhotoViewBinding
 import com.vam.android.pagergallery.network.bean.Pixabay
 
+//使用ListAdapter的原因是，使用PagingAdapter未能实现指哪打哪的效果，BUG未有能力解决
 class PagerAdapter: ListAdapter<Pixabay.PhotoItem, RecyclerView.ViewHolder>(DiffCallback){
 
     object DiffCallback: DiffUtil.ItemCallback<Pixabay.PhotoItem>() {//比较器
