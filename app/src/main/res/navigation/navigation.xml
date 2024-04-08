@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    app:startDestination="@id/galleryFragment">
+
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="com.vam.android.pagergallery.ui.gallery.GalleryFragment"
+        android:label="Pixabay图库">
+        <action
+            android:id="@+id/action_galleryFragment_to_pagerFragment"
+            app:destination="@id/pagerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pagerFragment"
+        android:name="com.vam.android.pagergallery.ui.pager.PagerFragment"
+        android:label="PagerFragment" />
+</navigation>
