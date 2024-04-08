@@ -8,7 +8,7 @@ class BaseApplication : Application() {
     companion object {
         @SuppressLint("StaticFieldLeak")
         lateinit var context: Context
-        const val TOKEN = "40746625-6dd3135dd043554f3b934d632"
+        const val TOKEN = "//填入自己的TOKEN"
         var SAFE_SEARCH = true
 
     }
