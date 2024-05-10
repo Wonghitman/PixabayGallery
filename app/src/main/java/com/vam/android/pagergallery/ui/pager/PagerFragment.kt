@@ -26,6 +26,7 @@ import com.vam.android.pagergallery.databinding.FragmentPagerBinding
 import com.vam.android.pagergallery.ui.gallery.GalleryViewModel
 import com.yalantis.ucrop.UCrop
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.async
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import java.io.File
@@ -87,7 +88,7 @@ class PagerFragment : BaseFragment<FragmentPagerBinding, GalleryViewModel>(
                 .request { allGranted, _, deniedList ->
                     if (allGranted) {
                         viewLifecycleOwner.lifecycleScope.launch {
-                            withContext(Dispatchers.IO) {
+                            async {
                                 savephoto()
                             }
                         }
@@ -278,13 +279,14 @@ class PagerFragment : BaseFragment<FragmentPagerBinding, GalleryViewModel>(
         options.setToolbarColor(
             ContextCompat.getColor(
                 requireContext(),
-                com.google.android.material.R.color.design_default_color_primary
+                R.color.black
+
             )
         )
         options.setStatusBarColor(
             ContextCompat.getColor(
                 requireContext(),
-                com.google.android.material.R.color.design_default_color_primary_variant
+                R.color.black
             )
         )
         return options

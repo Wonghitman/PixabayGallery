@@ -37,7 +37,7 @@ class PublicViewModel(application: Application): AndroidViewModel(application) {
         val newResult: Flow<PagingData<Pixabay.PhotoItem>> = Pager(
             config = PagingConfig(
                 pageSize = 20,
-                maxSize = 100,
+                maxSize = Int.MAX_VALUE,//BUG修复
                 enablePlaceholders = false
             ),
             pagingSourceFactory = { PhotoPagingSource(photoApi, query) }

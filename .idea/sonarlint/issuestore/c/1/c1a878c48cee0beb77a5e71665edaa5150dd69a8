@@ -1,11 +1,9 @@
 
-akotlin:S6310y"Avoid hardcoded dispatchers.(Ô¥‚ü8àªçë1J$e6a33a81-97cd-4701-9fb0-6b50a0c2a058
-bkotlin:S6310”"Avoid hardcoded dispatchers.(Ô¥‚ü8àªçë1J$faf0a5d2-85ce-42b3-ad9f-1ff28d723ffa
-bkotlin:S6310±"Avoid hardcoded dispatchers.(Ô¥‚ü8’àªçë1J$24fb6dec-626a-4022-acc1-598a950bba2c
-bkotlin:S6310§"Avoid hardcoded dispatchers.(ÏÃâ8’àªçë1J$70e1a375-8c6b-41bf-a671-fb1049eda65b
-bkotlin:S6310İ"Avoid hardcoded dispatchers.(Í¡·Ş8’àªçë1J$a9d7f19a-7d0e-41a8-b4a0-46753f013025
-bkotlin:S6310€"Avoid hardcoded dispatchers.(Í¡·Ş8“àªçë1J$bc7b1674-ad8e-47f3-a990-4fa8f5a2524a
-akotlin:S6310Z"Avoid hardcoded dispatchers.(Ô¥‚ü8“àªçë1J$012009d6-704e-45ef-b3c7-067edfa1a740
-–kotlin:S6311Z"QRemove this dispatcher. It is pointless when used with only suspending functions.(Ô¥‚ü8“àªçë1J$24c85df0-9dda-4c38-9951-59c018e02c68
-œkotlin:S1192€"QDefine a constant instead of duplicating this literal "shared_image.jpg" 3 times.(œ€ÈĞıÿÿÿÿ8ıó¨çë1J$5a57ade6-95b8-4a42-8353-fb017a5aa135
-–kotlin:S1192¨"KDefine a constant instead of duplicating this literal "image/jpeg" 3 times.(ñš†Üıÿÿÿÿ8È¢©çë1J$da92ffb1-3a8e-47b7-bc74-c3d33c679dfd
+akotlin:S6310z"Avoid hardcoded dispatchers.(Ô¥‚ü8Ã¶®£ò1J$0ab1954c-53c2-4de2-bb64-f820939ef0d3
+bkotlin:S6310•"Avoid hardcoded dispatchers.(Ô¥‚ü8Ã¶®£ò1J$86b775a0-2e6d-4a74-92b5-5bb9e689ebf1
+bkotlin:S6310²"Avoid hardcoded dispatchers.(Ô¥‚ü8Ä¶®£ò1J$a670c42c-cfd4-4d78-a2cf-38a43af0ea7b
+bkotlin:S6310©"Avoid hardcoded dispatchers.(ÏÃâ8Ä¶®£ò1J$58801cbd-6aa4-43e0-9a4f-67ef0cc6aa09
+bkotlin:S6310Ş"Avoid hardcoded dispatchers.(Í¡·Ş8Ä¶®£ò1J$83a4842f-83ca-49f5-8441-05beb46001cd
+bkotlin:S6310"Avoid hardcoded dispatchers.(Í¡·Ş8Å¶®£ò1J$b34fa499-bc7c-424d-ae21-61dbfcdccc85
+œkotlin:S1192"QDefine a constant instead of duplicating this literal "shared_image.jpg" 3 times.(œ€ÈĞıÿÿÿÿ8õ¶®£ò1J$83d862a6-51d9-4569-ac7a-ecc938d70e00
+–kotlin:S1192©"KDefine a constant instead of duplicating this literal "image/jpeg" 3 times.(ñš†Üıÿÿÿÿ8ö¶®£ò1J$1ce9e429-6515-4c9c-87f4-d55c47d09cd9

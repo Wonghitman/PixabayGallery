@@ -5,14 +5,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.paging.LoadState
 import androidx.paging.LoadStateAdapter
-import androidx.paging.PagingDataAdapter
-import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.vam.android.pagergallery.databinding.GalleryFooterBinding
-import com.vam.android.pagergallery.network.bean.Pixabay
 
-class FooterAdapter(private val retryCallback: () -> Unit = {}):LoadStateAdapter<FooterAdapter.FooterViewHolder>()
+class FooterAdapter():LoadStateAdapter<FooterAdapter.FooterViewHolder>()
 {
 
     override fun onBindViewHolder(holder: FooterViewHolder, loadState: LoadState) {

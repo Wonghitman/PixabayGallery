@@ -47,3 +47,5 @@ Eapp/src/main/java/com/vam/android/pagergallery/ui/gallery/ViewUtil.kt,0\1\0196
 Rapp/src/main/java/com/vam/android/pagergallery/network/repository/AppRepository.kt,6\e\6e51bdcf898f02aa6ad6693c4ede4816c77dbaad
 w
 Gapp/src/main/java/com/vam/android/pagergallery/ui/pager/PagerAdapter.kt,4\d\4d769638d5d882bb36d25ef5d40a1396f10eea0e
+I
+gradle/libs.versions.toml,d\7\d7595319a0658be6f1ed500ad590d42e4b28bc4f

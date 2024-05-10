@@ -4,7 +4,6 @@ import android.graphics.drawable.Drawable
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.navigation.Navigation
 import androidx.navigation.findNavController
 import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.DiffUtil
@@ -17,6 +16,7 @@ import com.bumptech.glide.request.target.Target
 import com.vam.android.pagergallery.R
 import com.vam.android.pagergallery.databinding.GalleryCellBinding
 import com.vam.android.pagergallery.network.bean.Pixabay
+
 
 class GalleryAdapter() : PagingDataAdapter<Pixabay.PhotoItem, RecyclerView.ViewHolder>
     (PHOTO_COMPARATOR) {

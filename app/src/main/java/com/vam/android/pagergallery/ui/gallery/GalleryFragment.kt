@@ -35,11 +35,12 @@ class GalleryFragment : BaseFragment<FragmentGalleryBinding, GalleryViewModel>(
         val menuHost = requireActivity()
         lateinit var searchView: SearchView
         //adapter操作
+
         binding.apply {
             recyclerView.adapter = adapter
-            recyclerView.layoutManager =
-                StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL)
+            recyclerView.layoutManager = StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL)
             recyclerView.setAdapterWithDefaultFooter(adapter)
+        //footer需要优化为独占一行
         }
 
         adapter.withLoadStateFooter(FooterAdapter())
@@ -47,12 +48,10 @@ class GalleryFragment : BaseFragment<FragmentGalleryBinding, GalleryViewModel>(
             if (it.isIdle && adapter.itemCount != 0) {
                 publicViewModel!!.PagingList.postValue(adapter.snapshot().items)
             }
-
-        }
-        adapter.addLoadStateListener {
             binding.swipeRefreshLayout.isRefreshing = it.refresh is LoadState.Loading
 
         }
+
         binding.swipeRefreshLayout.setOnRefreshListener {
             publicViewModel?.fetchPhotos(publicViewModel?.currentSearchResult?.value.toString())
             adapter.refresh()
